@@ -3,7 +3,7 @@
     "description": "This is a meta package shipping sentry/sentry-php with a recommended http client.",
     "type": "metapackage",
     "require": {
-        "sentry/sentry": "sentry/sentry:2.0.0-beta1",
+        "sentry/sentry": "2.0.0-beta1",
         "php-http/curl-client": "^1.0",
         "guzzlehttp/psr7": "^1.0"
     },
