@@ -1,0 +1,25 @@
+language: php
+
+branches:
+  only:
+  - master
+  - /^release\/.+$/
+
+php:
+    - 7.1
+
+cache:
+    directories:
+        - $HOME/.composer/cache
+
+script: composer install
+
+notifications:
+    webhooks:
+        urls:
+            - https://zeus.ci/hooks/23e1f6e8-2e98-11e9-a263-0a580a28120c/public/provider/travis/webhook
+        on_success: always
+        on_failure: always
+        on_start: always
+        on_cancel: always
+        on_error: always
