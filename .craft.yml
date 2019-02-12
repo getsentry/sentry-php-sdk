@@ -2,7 +2,6 @@ minVersion: '0.7.2'
 github:
     owner: getsentry
     repo: sentry-php-sdk
-changelogPolicy: simple
 preReleaseCommand: ""
 targets:
     - name: github
