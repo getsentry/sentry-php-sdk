@@ -16,7 +16,7 @@ If you are having troubles with our suggested http layer, please directly instal
 Currently we recommend:
 
 ```
-"php-http/curl-client": "^1.0",
+"php-http/curl-client": "^1.0|^2.0",
 "guzzlehttp/psr7": "^1.0"
 ```
 
