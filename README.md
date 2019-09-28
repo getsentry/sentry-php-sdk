@@ -16,7 +16,7 @@ If you are having troubles with our suggested http layer, please directly instal
 Currently we recommend:
 
 ```
-"guzzlehttp/guzzle": "^6.3",
+"php-http/guzzle6-adapter": "^1.1|^2.0",
 "guzzlehttp/psr7": "^1.0"
 ```
 
