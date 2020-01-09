@@ -1,17 +1,30 @@
 {
     "name": "sentry/sdk",
-    "description": "This is a metapackage shipping sentry/sentry with a recommended http client.",
     "type": "metapackage",
-    "require": {
-        "sentry/sentry": "^2.3",
-        "http-interop/http-factory-guzzle": "^1.0",
-        "php-http/guzzle6-adapter": "^1.1|^2.0"
-    },
+    "description": "This is a metapackage shipping sentry/sentry with a recommended HTTP client.",
+    "keywords": [
+        "sentry",
+        "log",
+        "logging",
+        "error-monitoring",
+        "error-handler",
+        "crash-reporting",
+        "crash-reports"
+    ],
+    "homepage": "http://sentry.io",
     "license": "MIT",
     "authors": [
         {
             "name": "Sentry",
             "email": "accounts@sentry.io"
         }
-    ]
+    ],
+    "require": {
+        "sentry/sentry": "^2.3",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "php-http/guzzle6-adapter": "^1.1|^2.0"
+    },
+    "config": {
+        "sort-packages": true
+    }
 }
