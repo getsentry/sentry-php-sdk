@@ -13,7 +13,7 @@
 This is a metapackage shipping [sentry/sentry](https://github.com/getsentry/sentry-php) with our recommend httpclient.
 If you are having troubles with our suggested http layer, please directly install `sentry/sentry` with the http client you prefer.
 
-Currently we recommend:
+We recommend:
 
 ```
 "php-http/guzzle6-adapter": "^1.1|^2.0",
