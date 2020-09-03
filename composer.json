@@ -20,11 +20,16 @@
         }
     ],
     "require": {
-        "sentry/sentry": "^2.3",
+        "sentry/sentry": "3.0.0-beta1",
         "http-interop/http-factory-guzzle": "^1.0",
         "php-http/guzzle6-adapter": "^1.1|^2.0"
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
     }
 }
