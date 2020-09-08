@@ -16,7 +16,7 @@ If you are having troubles with our suggested http layer, please directly instal
 We recommend:
 
 ```
-"php-http/guzzle6-adapter": "^1.1|^2.0",
+"symfony/http-client": "^4.3|^5.0",
 "guzzlehttp/psr7": "^1.0"
 ```
 
