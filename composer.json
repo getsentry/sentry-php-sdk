@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "sentry/sentry": "3.0.0-beta1",
+        "sentry/sentry": "^3.0",
         "http-interop/http-factory-guzzle": "^1.0",
         "symfony/http-client": "^4.3|^5.0"
     },
