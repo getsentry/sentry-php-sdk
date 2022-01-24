@@ -1,0 +1,13 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🐞 Bug Report
+    url: https://github.com/getsentry/sentry-php/issues/new?assignees=&labels=&template=BUG_REPORT.md
+    about: Report a bug against Sentry-PHP
+
+  - name: 🧠 Feature Request
+    url: https://github.com/getsentry/sentry-php/issues/new?assignees=&labels=&template=FEATURE_REQUEST.md
+    about: Suggest an idea for improving Sentry-PHP
+
+  - name: Sentry-PHP Issue Tracker
+    url: https://github.com/getsentry/sentry-php/issues/
+    about: Visit the main Sentry-PHP Issue Tracker
