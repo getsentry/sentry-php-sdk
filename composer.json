@@ -20,9 +20,7 @@
         }
     ],
     "require": {
-        "sentry/sentry": "^3.9",
-        "http-interop/http-factory-guzzle": "^1.0",
-        "symfony/http-client": "^4.3|^5.0|^6.0"
+        "sentry/sentry": "^3.17"
     },
     "config": {
         "sort-packages": true
