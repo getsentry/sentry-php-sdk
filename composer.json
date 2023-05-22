@@ -25,6 +25,9 @@
         "symfony/http-client": "^4.3|^5.0|^6.0"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
     }
 }
