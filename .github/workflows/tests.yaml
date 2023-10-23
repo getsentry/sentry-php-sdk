@@ -21,11 +21,14 @@ jobs:
           - '7.4'
           - '8.0'
           - '8.1'
+          - '8.2'
+          - '8.3'
         symfony-version:
           - 3.4.*
           - 4.4.*
           - 5.*
           - 6.*
+          - 7.*
         dependencies:
           - highest
         exclude:
@@ -37,6 +40,21 @@ jobs:
             dependencies: highest
           - php: '7.4'
             symfony-version: 6.*
+            dependencies: highest
+          - php: '7.2'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '7.3'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '7.4'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '8.0'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '8.1'
+            symfony-version: 7.*
             dependencies: highest
         include:
           - php: '7.2'
