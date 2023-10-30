@@ -4,22 +4,18 @@
   </a>
 </p>
 
-# Sentry pre-configured PHP SDK
+# Official Sentry SDK for PHP
 
 [![Monthly Downloads](https://poser.pugx.org/sentry/sdk/d/monthly)](https://packagist.org/packages/sentry/sdk)
 [![Latest Stable Version](https://poser.pugx.org/sentry/sdk/v/stable)](https://packagist.org/packages/sentry/sdk)
 [![License](https://poser.pugx.org/sentry/sdk/license)](https://packagist.org/packages/sentry/sdk)
 
-This is a metapackage shipping [sentry/sentry](https://github.com/getsentry/sentry-php) with our recommend httpclient.
-If you are having troubles with our suggested http layer, please directly install `sentry/sentry` with the http client you prefer.
+This is a meta package that **historically** shipped [sentry/sentry](https://github.com/getsentry/sentry-php) with an HTTP client.
 
-We recommend:
+We recommend using [sentry/sentry](https://github.com/getsentry/sentry-php) instead.
 
-```
-"http-interop/http-factory-guzzle": "^1.0",
-"symfony/http-client": "^4.3|^5.0"
+```bash
+composer require sentry/sentry
 ```
 
-as the http layer.
-
-Since this is only a meta package, if you are finding this repo and having issues please create an issue on our main repo: [Issue Tracker](https://github.com/getsentry/sentry-php/issues)
+Since this is only a meta package, if you are finding this repo and having issues, please create an issue on our main repository's [issue tracker](https://github.com/getsentry/sentry-php/issues)
