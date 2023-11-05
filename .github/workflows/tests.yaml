@@ -31,6 +31,7 @@ jobs:
           - 4.4.*
           - 5.*
           - 6.*
+          - 7.*
         dependencies:
           - highest
           - lowest
@@ -52,6 +53,36 @@ jobs:
             dependencies: lowest
           - php: '7.4'
             symfony-version: 6.*
+            dependencies: lowest
+          - php: '7.2'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '7.3'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '7.4'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '8.0'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '8.1'
+            symfony-version: 7.*
+            dependencies: highest
+          - php: '7.2'
+            symfony-version: 7.*
+            dependencies: lowest
+          - php: '7.3'
+            symfony-version: 7.*
+            dependencies: lowest
+          - php: '7.4'
+            symfony-version: 7.*
+            dependencies: lowest
+          - php: '8.0'
+            symfony-version: 7.*
+            dependencies: lowest
+          - php: '8.1'
+            symfony-version: 7.*
             dependencies: lowest
 
     steps:
