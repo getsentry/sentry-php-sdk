@@ -1,7 +1,7 @@
 {
     "name": "sentry/sdk",
     "type": "metapackage",
-    "description": "This is a metapackage shipping sentry/sentry with a recommended HTTP client.",
+    "description": "This is a meta package of sentry/sentry. We recommend using sentry/sentry directly.",
     "keywords": [
         "sentry",
         "log",
@@ -20,14 +20,9 @@
         }
     ],
     "require": {
-        "sentry/sentry": "^3.19",
-        "http-interop/http-factory-guzzle": "^1.0",
-        "symfony/http-client": "^4.3|^5.0|^6.0"
+        "sentry/sentry": "^4.0"
     },
     "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "php-http/discovery": false
-        }
+        "sort-packages": true
     }
 }
