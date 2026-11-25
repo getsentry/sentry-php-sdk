@@ -1,4 +1,6 @@
-minVersion: '0.23.1'
+minVersion: '3.9.0'
+versioning:
+  policy: manual
 artifactProvider:
   name: none
 preReleaseCommand: ''
